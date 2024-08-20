@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 4px;
+  height: 80vh;
+  width: 100%;
+}
+
+#btn {
+  font-size: 25px;
+  background: green;
+  padding: 2px 20px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  display: inline-block;
+}
+
+#btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.1s ease;
+}
